@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class AppController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 
+@property(nonatomic, strong) AppController *appController;
 @end
 

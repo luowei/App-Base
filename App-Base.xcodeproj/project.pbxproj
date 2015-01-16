@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEF06313AC4DECAC240BA125 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF068122741D82A6E7B041E /* Entry.m */; };
+		BEF064AEA57964FD330E0339 /* AppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF063CA115B65D828E2284B /* AppFactory.m */; };
+		BEF0674B12B2E89AD857004C /* AppContextData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEF062D38C62698B0FF92AB8 /* AppContextData.plist */; };
+		BEF06CB05EABDB0657D2513C /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06524A59A4981960513A0 /* AppController.m */; };
+		BEF06E69D670EE0B58A741E4 /* EntriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06460E3562A441A273108 /* EntriesController.m */; };
+		BEF06EA84E4E541FFB619163 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06DFEFD04E4ACC16B00E4 /* ContentViewController.m */; };
 		EA388AD31A68C24600F69C67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA388AD21A68C24600F69C67 /* main.m */; };
 		EA388AD61A68C24600F69C67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA388AD51A68C24600F69C67 /* AppDelegate.m */; };
 		EA388AD91A68C24600F69C67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA388AD81A68C24600F69C67 /* ViewController.m */; };
@@ -27,6 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEF062D38C62698B0FF92AB8 /* AppContextData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = AppContextData.plist; sourceTree = "<group>"; };
+		BEF063B22686E1F080D2B0D2 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		BEF063CA115B65D828E2284B /* AppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFactory.m; sourceTree = "<group>"; };
+		BEF06460E3562A441A273108 /* EntriesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntriesController.m; sourceTree = "<group>"; };
+		BEF064D8E12AC01C30189CCF /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		BEF06524A59A4981960513A0 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		BEF06649447CD03692D3AD97 /* AppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFactory.h; sourceTree = "<group>"; };
+		BEF066D928B50B0BDFA86475 /* EntriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntriesController.h; sourceTree = "<group>"; };
+		BEF068122741D82A6E7B041E /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		BEF06D885E61F95CFA3BFBAA /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		BEF06DFEFD04E4ACC16B00E4 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		EA388ACD1A68C24600F69C67 /* App-Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Base.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA388AD11A68C24600F69C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA388AD21A68C24600F69C67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +77,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEF0691A3029102DAA150350 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF06DFEFD04E4ACC16B00E4 /* ContentViewController.m */,
+				BEF063B22686E1F080D2B0D2 /* ContentViewController.h */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		BEF069F444C4E8CC6535EAC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEF066D928B50B0BDFA86475 /* EntriesController.h */,
+				BEF06460E3562A441A273108 /* EntriesController.m */,
+				BEF068122741D82A6E7B041E /* Entry.m */,
+				BEF06D885E61F95CFA3BFBAA /* Entry.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EA388AC41A68C24600F69C67 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +126,12 @@
 				EA388ADD1A68C24600F69C67 /* Images.xcassets */,
 				EA388ADF1A68C24600F69C67 /* LaunchScreen.xib */,
 				EA388AD01A68C24600F69C67 /* Supporting Files */,
+				BEF06524A59A4981960513A0 /* AppController.m */,
+				BEF064D8E12AC01C30189CCF /* AppController.h */,
+				BEF063CA115B65D828E2284B /* AppFactory.m */,
+				BEF06649447CD03692D3AD97 /* AppFactory.h */,
+				BEF069F444C4E8CC6535EAC1 /* Model */,
+				BEF0691A3029102DAA150350 /* content */,
 			);
 			path = "App-Base";
 			sourceTree = "<group>";
@@ -98,6 +141,7 @@
 			children = (
 				EA388AD11A68C24600F69C67 /* Info.plist */,
 				EA388AD21A68C24600F69C67 /* main.m */,
+				BEF062D38C62698B0FF92AB8 /* AppContextData.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +246,7 @@
 				EA388ADC1A68C24600F69C67 /* Main.storyboard in Resources */,
 				EA388AE11A68C24600F69C67 /* LaunchScreen.xib in Resources */,
 				EA388ADE1A68C24600F69C67 /* Images.xcassets in Resources */,
+				BEF0674B12B2E89AD857004C /* AppContextData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +267,11 @@
 				EA388AD91A68C24600F69C67 /* ViewController.m in Sources */,
 				EA388AD61A68C24600F69C67 /* AppDelegate.m in Sources */,
 				EA388AD31A68C24600F69C67 /* main.m in Sources */,
+				BEF06CB05EABDB0657D2513C /* AppController.m in Sources */,
+				BEF064AEA57964FD330E0339 /* AppFactory.m in Sources */,
+				BEF06E69D670EE0B58A741E4 /* EntriesController.m in Sources */,
+				BEF06313AC4DECAC240BA125 /* Entry.m in Sources */,
+				BEF06EA84E4E541FFB619163 /* ContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
